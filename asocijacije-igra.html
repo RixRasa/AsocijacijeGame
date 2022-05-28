@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="skripta.js"></script>
+    <title>Document</title>
+</head>
+<body style="min-height: 100%;">
+    <div class="container-fluid" id="pozadina">
+        <div class="row">
+            <div class="col-sm-12 mb-5">
+            Igrac 1 : <input id="I1" type="text" class="player">
+            Igrac 2 : <input id="I2" type="text" class="player">
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-3 flex-column d-flex justify-content-center">
+                <div id="LevoG1" name="zatvoreno" class="polje close text-center">--</div>
+                <div id="LevoG2" name="zatvoreno" class="polje close text-center">--</div>
+                <div id="LevoG3" name="zatvoreno" class="polje close text-center">--</div> 
+                <div id="LevoG4" name="zatvoreno" class="polje close text-center">--</div>
+                <input disabled type='text' id="LevoGKonacno" class="inputA text-center nijeODG">
+            </div>
+            <div class="col-sm-3 flex-column d-flex justify-content-center">
+                <div id="DesnoG1" name="zatvoreno" class="polje close text-center">--</div>
+                <div id="DesnoG2" name="zatvoreno" class="polje close text-center">--</div>
+                <div id="DesnoG3" name="zatvoreno" class="polje close text-center">--</div>
+                <div id="DesnoG4" name="zatvoreno" class="polje close text-center">--</div>
+                <input disabled type='text' id="DesnoGKonacno" class="inputA text-center nijeODG">
+            </div>
+            <div class="col-sm-3">
+            </div>
+
+            <div class="col-sm-5">
+            </div>
+            <div class="col-sm-2 mt-5 mb-5 flex-column d-flex justify-content-center">
+                <input disabled type='text' id="Konacno" class="konacno text-center">
+            </div>
+            <div class="col-sm-5">
+            </div>
+
+            
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-3 flex-column d-flex justify-content-center">
+                <div id="LevoD1" name="zatvoreno" class="polje close text-center">--</div>
+                <div id="LevoD2" name="zatvoreno" class="polje close text-center">--</div>
+                <div id="LevoD3" name="zatvoreno" class="polje close text-center">--</div> 
+                <div id="LevoD4" name="zatvoreno" class="polje close text-center">--</div>
+                <input disabled type='text' id="LevoDKonacno" class="inputA text-center nijeODG">
+            </div>
+            <div class="col-sm-3 flex-column d-flex justify-content-center">
+                <div id="DesnoD1" name="zatvoreno" class="polje close text-center">--</div>
+                <div id="DesnoD2" name="zatvoreno" class="polje close text-center">--</div>
+                <div id="DesnoD3" name="zatvoreno" class="polje close text-center">--</div>
+                <div id="DesnoD4" name="zatvoreno"  class="polje close text-center">--</div>
+                <input disabled type='text' id="DesnoDKonacno" class="inputA text-center nijeODG">
+            </div>
+            <div class="col-sm-3">
+            </div>
+
+            <br>
+            <br>
+            <hr>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    Trenutni Igrac:
+                    <div id="trenutni" >
+
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    Igrac 1 poeni:
+                    <div id="Igrac1P">
+                        0
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    Igrac 2 poeni:
+                    <div id="Igrac2P">
+                        0
+                    </div>
+                </div>
+
+                <div class="col-sm-3 d-flex justify-content-center">
+                        <button id="dalje" type="button" class="btn ml-4" value="Dalje">Dalje</button>
+                </div>
+            </div>
+            
+            <br>
+            <br>
+            <hr>
+            <br>
+            
+            <div class="row">
+                <div class="col-sm-3">
+                    VremeIgraca<div id="vremeIgraca">0</div>
+                </div>
+                <div class="col-sm-3">
+                    VremeIgre<div id="vremeIgre">0</div>
+                </div>
+            </div>
+        
+
+
+          
+
+        </div>
+    </div>
+   
+    
+
+</body>
+</html>

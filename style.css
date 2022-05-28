@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    
+}
+
+#pozadina {
+    background-color:aqua; min-height: 100%;
+    background-image: url(asocijacije-dodatno/slika.jpg) ;
+}
+
+
+#LevoG2{
+    margin-left: 15px;
+}
+#LevoG3{
+    margin-left: 25px;
+}
+#LevoG4{
+    margin-left: 35px;
+}
+#LevoD3{
+    margin-left: 15px;
+}
+#LevoD2{
+    margin-left: 25px;
+}
+#LevoD1{
+    margin-left: 35px;
+
+}
+
+
+
+#DesnoG2{
+    margin-right: 15px;
+}
+#DesnoG3{
+    margin-right: 25px;
+}
+#DesnoG4{
+    margin-right: 35px;
+}
+#DesnoD3{
+    margin-right: 15px;
+}
+#DesnoD2{
+    margin-right: 25px;
+}
+#DesnoD1{
+    margin-right: 35px;
+}
+
+
+#dalje{
+    background-color:gray;
+    width: 150px
+}
+
+.polje{
+    border-width:5px;
+    border-style:solid;
+    border: 6px;
+    background-color: slategray;
+    border-color: black;
+
+}
